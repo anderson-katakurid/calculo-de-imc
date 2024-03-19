@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IMC</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+   <main>
+       <div class="container">
+            <div class="titulo">Calculadora - IMC</div>
+            <div class="input">
+            <label for="inome">Nome:</label>
+            <input type="text" name="nome" id="inome" placeholder="Coloque seu nome" autocomplete="off">
+            </div>
+            <div class="input">
+                <label for="ialtura">Altura:</label>
+                <input type="number" name="altura" id="ialtura" placeholder="Coloque sua altura">
+            </div>
+                <div class="input">
+                    <label for="ipeso">Peso:</label>
+                    <input type="number" name="peso" id="ipeso" placeholder="Coloque seu peso">
+                </div>
+            <input id="botao" type="button" value="Calcular" onclick="calcular()">
+            <div id="res">
+                
+            </div> 
+        <footer> <p> <a href="https://mundoeducacao.uol.com.br/saude-bem-estar" target="_blank">Para mais informações sobre IMC </a></p>
+    </footer>
+       </div>
+   </main>
+   <script src="script.js"></script>
+</body>
+</html>
